@@ -1,4 +1,4 @@
-# Project Title: Generic Data Structures and Jerry Object Management
+# Jerry Management System Based on Core Data Structures
 
 ## Introduction
 
