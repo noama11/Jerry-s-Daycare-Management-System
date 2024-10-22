@@ -23,7 +23,7 @@ The **Hash Table** allows **O(1) average time complexity** for lookups using a k
 - **Collision Handling**: Uses linked lists to resolve key collisions within hash buckets.
 - **Single Value per Key**: Each key maps to a single value for efficient storage.
 
-### 3. Fire Table
+### 3. MultiValueHashTable
 The **Fire Table** extends the functionality of the Hash Table, enabling the mapping of **multiple values** to a single key:
 - **Multi-Value Mapping**: Each key is associated with a list of values.
 - **Efficient Value Storage**: Supports scenarios where a key needs to reference several related data points.
