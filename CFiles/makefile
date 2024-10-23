@@ -12,5 +12,6 @@ LinkedList.o: LinkedList.c LinkedList.h Defs.h
 	gcc -c LinkedList.c
 MultiValueHashTable.o: MultiValueHashTable.c HashTable.h Defs.h LinkedList.h KeyValuePair.h MultiValueHashTable.h
 	gcc -c MultiValueHashTable.c HashTable.c LinkedList.c
-clean :
-	rm -f *.o
+clean:
+	$(RM) *.o
+	$(RM) JerryBoree
