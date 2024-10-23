@@ -1,5 +1,3 @@
-CFLAGS = -g -Wall
-
 JerryBoree:Jerry.o KeyValuePair.o LinkedList.o HashTable.o MultiValueHashTable.o JerryBoreeMain.o
 	gcc *.c -o JerryBoree $(CFLAGS)
 HashTable.o: HashTable.c HashTable.h Defs.h LinkedList.h KeyValuePair.h
